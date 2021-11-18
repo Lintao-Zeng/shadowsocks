@@ -16,6 +16,34 @@ Features:
 Server
 ------
 
+### ss.config
+```
+{
+    "server":"0.0.0.0",
+    "server_port":8388,
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "password":"123456",
+    "timeout":600,
+    "method":"cr4-md5",
+    "fast_open":true
+}
+```
+```
+git clone -b master https://github.com/shadowsocks/shadowsocks
+```
+
+### Recommend Python3.7.3
+```
+pip install ./shadowsocks
+```
+### Start Server
+```
+ssserver -c ss.json -d start
+```
+-c 加载配置
+-d 后台运行
+
 ### Install
 
 Debian / Ubuntu:
