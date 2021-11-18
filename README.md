@@ -42,7 +42,14 @@ pip install ./shadowsocks
 ssserver -c ss.json -d start
 ```
 -c 加载配置
+
 -d 后台运行
+
+目前支持的比较快的加密方法有rc4和rc4-md5，但是rc4服务端会提示不安全，并且很多客户端也不支持，
+
+设置成的话，服务端会提示不支持的加密方法，所以说官方并没有为ss设置不加密选项。
+
+fast_open需要服务端和客户端的linux内核都大于3.7+才有效，不过开着也没什么影响
 
 ### Install
 
