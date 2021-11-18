@@ -25,7 +25,7 @@ Server
     "local_port":1080,
     "password":"123456",
     "timeout":600,
-    "method":"cr4-md5",
+    "method":"rc4-md5",
     "fast_open":true
 }
 ```
