@@ -16,7 +16,7 @@ Features:
 Server
 ------
 
-### ss.config
+### config.json
 ```
 {
     "server":"0.0.0.0",
@@ -39,7 +39,7 @@ pip install ./shadowsocks
 ```
 ### Start Server
 ```
-ssserver -c ss.json -d start
+ssserver -c config.json -d start
 ```
 -c 加载配置
 
