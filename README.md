@@ -13,7 +13,7 @@ Features:
 - Workers and graceful restart
 - Destination IP blacklist
 
-环境要求：python3.7.2~3.7.4（理论上大版本3.7都可以），openssl1.1.1a~1.1.1d
+环境要求：python3.7.2 至 3.7.4（理论上大版本3.7都可以），openssl1.1.1a 至 1.1.1d
 ------
 
 ### config.json
